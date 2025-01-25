@@ -5,11 +5,15 @@
 Игра будет включать базовые элементы, такие как управление объектами, физика (через Rigidbody и коллайдеры), а также взаимодействие с пользователем, что даст основу для дальнейшего развития игры и добавления новых функциональных возможностей.
 
 ---
+https://play.unity.com/en/games/32e0ec9a-234c-46e1-8a6f-a7d8d4659015/unity1car 
+
 ![image](https://github.com/user-attachments/assets/79a4190c-4863-4034-b688-5981dfed294b)
 
 ---
-![image](https://github.com/user-attachments/assets/1cb72b85-7aa4-47fe-98b0-a6a6f711f563)
+https://play.unity.com/en/games/e8d153b1-7a8e-4eb8-8660-2c577ed01a8f/chalange1aeroplane
 
+![image](https://github.com/user-attachments/assets/1cb72b85-7aa4-47fe-98b0-a6a6f711f563)
+ 
 ---
 
 На этом уроке ученики научатся:
