@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
+    // Переменная для хранения ссылки на объект игрока
     [SerializeField]
     private GameObject player;
 
+    // Смещение относительно позиции игрока (например, для камеры)
     [SerializeField]
     private Vector3 offset = new Vector3();
 
-    // Start is called before the first frame update
+    // Start вызывается перед первым обновлением кадра
     void Start()
-    { }
+    {
+        // Здесь можно инициализировать что-то, если нужно
+    }
 
-    // Update is called once per frame
+    // Update вызывается каждый кадр
     void Update()
     {
+        // Проверяем, существует ли объект игрока
         if (player != null)
         {
+            // Устанавливаем позицию текущего объекта в позицию игрока с добавленным смещением
             transform.position = player.transform.position + offset;
         }
     }
