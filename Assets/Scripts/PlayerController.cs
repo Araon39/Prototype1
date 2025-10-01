@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 20;
     // Задаем скорость вращения игрока
     [SerializeField] private float rotation = 10;
+    [SerializeField] private float vInput;
+    [SerializeField] private float hInput;
 
     // Start вызывается один раз при старте сцены или объекта
     void Start()
@@ -20,14 +22,14 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Получаем вертикальное движение (вперед/назад) от игрока
-        var vInput = Input.GetAxis("Vertical");
+        vInput = Input.GetAxis("Vertical");
 
         // Двигаем игрока вперед или назад по оси Z
         // Time.deltaTime делает движение независимым от частоты кадров
         transform.Translate(Vector3.forward * Time.deltaTime * speed * vInput);
 
         // Получаем горизонтальное движение (влево/вправ) от игрока
-        var hInput = Input.GetAxis("Horizontal");
+        hInput = Input.GetAxis("Horizontal");
 
         // Вращаем игрока по оси Y в зависимости от горизонтального ввода
         // Вращение умножается на vInput, чтобы движение вперед/назад влияло на вращение

@@ -6,12 +6,10 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     // Переменная для хранения ссылки на объект игрока
-    [SerializeField]
-    private GameObject player;
+    [SerializeField] private GameObject player;
 
     // Смещение относительно позиции игрока (например, для камеры)
-    [SerializeField]
-    private Vector3 offset = new Vector3();
+    [SerializeField] private Vector3 offset = new Vector3();
 
     // Start вызывается перед первым обновлением кадра
     void Start()
