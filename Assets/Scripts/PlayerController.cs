@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//этот скрипт для управления игроком / машинкой
 public class PlayerController : MonoBehaviour
 {
     // Задаем скорость движения игрока

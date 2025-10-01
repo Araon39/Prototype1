@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//этот скрипт нужен для камеры что бы та летала за машинкой
 public class FollowPlayer : MonoBehaviour
 {
     // Переменная для хранения ссылки на объект игрока
